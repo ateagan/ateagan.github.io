@@ -1,0 +1,23 @@
+# Site settings
+title: A. Teagan
+email: ateagan7@gmail.com
+description: >
+  I am an aspiring writer hoping to get my feet wet in sharing my work
+  with the public, which means, not only is this a place where I share with you, reader,
+  but where I also want you to share with me your feedback, opinion.
+baseurl: '/' # the subpath of your site, e.g. /blog/
+url: 'http://ateagan.github.io' # the base hostname & protocol for your site
+github_username: ateagan
+google_plus_com: 'https://plus.google.com/111252460382694646484'  # Community link
+google_plus_per: '+ateagan'  #Personal link
+
+# Layout settings
+header_type: default  # values [ drawer, default ]
+post_type: highlight    # values [ highlight, default ]
+pagination_type: default  # values [ ops, default ]
+
+disqus: true
+disqus_shortname: 'gio1135'
+
+# Build settings
+markdown: kramdown

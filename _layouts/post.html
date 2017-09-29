@@ -1,0 +1,38 @@
+---
+layout: default
+---
+  {% for post in site.posts %}
+  <div class='post-ribbon' style="background: url('{{ page.image }}') center/cover"></div>
+  {% endfor %}
+  <div class='card col s12'>
+    <div class='card-content'>
+      <h3>{{ page.title }}</h3>
+      <div class='grey-text'>
+        {{ page.date | date: '%b %-d, %Y' }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.categories %} • {% for cat in page.categories %} {{ cat }} {% endfor %} {% endif %}
+      </div>
+      <article class='post-content'>
+        <p>{{ content }}</p>
+      </article>
+      <!-- Disqus comments -->
+      {% if site.disqus %}
+      <div>
+        <h3>Comments</h3>
+        {% include disqus.html %}
+      </div>
+      {% endif %}
+    </div>
+  </div>
+
+  <div class='fixed-action-btn'>
+    <a class='btn-floating btn-large red'>
+      <i class='large material-icons waves-effect'>share</i>
+    </a>
+    <ul>
+      <li><a href='https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}' class='btn-floating waves-effect blue darken-2'><span>f</span></a></li>
+      <li><a href='https://twitter.com/share?url={{ page.url | prepend: site.url }}&text={{ post.title }}&via={{ site.twitter_username }}' class='btn-floating waves-effect white'><img src='/img/Twitter bird.svg'></a></li>
+      <li><a href='https://plus.google.com/share?url={{ page.url | prepend: site.url }}' class='btn-floating waves-effect red darken-1'><span>G+</span></a></li>
+      <li><a href='mailto:?subject=Modern Business&body={{ page.url | prepend: site.url }}' class='btn-floating waves-effect red'><i class='material-icons'>mail</i></a></li>
+      <li><a href='whatsapp://send?text={{ page.url | prepend: site.url }}' class='btn-floating waves-effect green'><img src='/img/Whatsapp.svg'></a></li>
+      <li><a href='sms:?body={{ page.url | prepend: site.url }}' class='btn-floating waves-effect blue darken-1'><i class='material-icons'>message</i></a></li>
+    </ul>
+  </div>

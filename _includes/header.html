@@ -1,0 +1,24 @@
+  <header>
+    <nav class='teal' role='navigation'>
+      <div class='nav-wrapper container'>
+        <a id='logo-container' href='/' class='brand-logo center'>{{ site.title }}</a>
+        <ul id='slide-out' class='side-nav'>
+          <li><div class='user-view'>
+            <div class='background'>
+              <img src='https://lh3.googleusercontent.com/-RmVnoAQSgxU/WHPz5HqU9uI/AAAAAAAAQ1I/gJOjWnKLbGkSlzzlhydpfvzrUn4jgz0DwCJkCGAYYCw/w1820-h1024-n-rw-no/Google_PixelXL-Android_Dudes.jpg'>
+            </div>
+            <a href='{{ site.google_plus_com }}'><img class='circle' src='https://lh3.googleusercontent.com/sC225-I9x0n4eVhau7ICZdZqgfN_F75Akja6KA71Esz-Mf9I9wWbTO9Xh8Gpy4Q_IvvTxxEfLahC=w5120-h3400-rw-no'></a>
+            <a href='{{ site.google_plus_com }}'><span class='white-text name'>Giovanni Gallardo</span></a>
+            <a href='mailto:{{ site.email }}'><span class='white-text email'>{{ site.email }}</span></a>
+          </div></li>
+          <li><a href='/' class='waves-effect waves-teal'>Home</a></li>
+          {% for page in site.pages %}
+            {% if page.title %}
+            <li><a href='{{ page.url | prepend: site.baseurl }}' class='waves-effect waves-teal'>{{ page.title }}</a></li>
+            {% endif %}
+          {% endfor %}
+        </ul>
+        <a href='#' data-activates='slide-out' class='sidenav-button'><i class='material-icons'>menu</i></a>
+      </div>
+    </nav>
+  </header>
