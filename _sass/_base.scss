@@ -1,6 +1,13 @@
 /*
  * Header
  */
+.sidenav-button {
+  float: left;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 18px;
+}
 .sidenav-button.btn-floating {
   position: fixed;
   top: 16px;
@@ -8,7 +15,6 @@
 }
 
 .brand-logo {
-  z-index: 999;
   margin-top: 16px;
 }
 .brand-logo.center {
@@ -42,6 +48,9 @@ a[href='/tag.html'] {
 }
 .dropdown-content li a {
   color: rgb(0, 0, 0) !important;
+}
+.card-image {
+  width: 100%;
 }
 /*
  * Set `margin-bottom` to maintain vertical rhythm
