@@ -1,5 +1,5 @@
 /*
- * Header
+ * Header and sidenav
  */
 .sidenav-button {
   float: left;
@@ -13,7 +13,6 @@
   top: 16px;
   left: 16px;
 }
-
 .brand-logo {
   margin-top: 16px;
 }
@@ -33,25 +32,10 @@ a[href='/tag.html'] {
   display: none !important;
 }
 
-/*
- * Higlight cards
- */
-.card.horizontal .card-image {
-  width: 30%;
+.post-ribbon {
+  z-index: -1;
+}
 
-  img {
-    object-fit: cover;
-  }
-}
-.card-content h2 {
-  font-size: 14pt;
-}
-.dropdown-content li a {
-  color: rgb(0, 0, 0) !important;
-}
-.card-image {
-  width: 100%;
-}
 /*
  * Set `margin-bottom` to maintain vertical rhythm
  */

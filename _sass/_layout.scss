@@ -1,13 +1,34 @@
-//
-// Generals styles for Materialize elements
-//
-@media only screen and (min-width: 993px) {
-  nav a.button-collapse {
-    display: block;
+/*
+ * Header
+ */
+.sidenav-button {
+  float: left;
+  position: relative;
+  z-index: 1;
+  height: 56px;
+  margin: 0 18px;
+}
+.sidenav-button.btn-floating {
+  position: fixed;
+  top: 16px;
+  left: 16px;
+}
+.brand-logo {
+  margin-top: 16px;
+}
+.brand-logo.center {
+  margin: 0;
+}
+@media only screen and (max-width: 425px) {
+  .brand-logo {
+    width: 100%;
+    font-size: 1.5rem !important;
   }
 }
 
-/* Side nav animation */
+/*
+ * Side nav animation
+ */
 nav .tab a {
   color: rgb(244, 67, 54) !important;
 }
@@ -67,4 +88,25 @@ nav .indicator {
 }
 .drag-target {
   width: 20px;
+}
+
+
+/*
+ * Higlight cards
+ */
+.card.horizontal .card-image {
+  width: 30%;
+
+  img {
+    object-fit: cover;
+  }
+}
+.card-content h2 {
+  font-size: 14pt;
+}
+.dropdown-content li a {
+  color: rgb(0, 0, 0) !important;
+}
+.card-image {
+  width: 100%;
 }
