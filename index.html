@@ -14,6 +14,9 @@ layout: default
           <h3><a href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a></h3>
           <p>{{ post.excerpt }}</p>
         </div>
+        <div class='card-action'>
+          <a href='{{ post.url | prepend: site.baseurl }}' class='btn-flat waves-effect teal-text'>Read more</a>
+        </div>
       </div>
     </div>
   </div>
@@ -43,6 +46,9 @@ layout: default
         <div class='card-content'>
           <h3><a href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a></h3>
           <p>{{ post.excerpt }}</p>
+        </div>
+        <div class='card-action'>
+          <a href='{{ post.url | prepend: site.baseurl }}' class='btn-flat waves-effect teal-text'>Read more</a>
         </div>
         <div class='card-action'>
           <a href='{{ post.url | prepend: site.baseurl }}' class='btn-flat waves-effect teal-text'>Read more</a>
