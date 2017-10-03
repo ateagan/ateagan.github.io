@@ -21,6 +21,7 @@ Yet I realize now, as I look back,<br>
 They hadn't really sought,<br>
 For the things that made her smile<br>
 Were much smaller than they thought<br>
+<br>
 
 Like a glimmering star,<br>
 Its flash of light beyond the moon,<br>
@@ -30,6 +31,7 @@ The tremble of a mounding tear,<br>
 The ripple of a hearty laugh,<br>
 The sun on breezy afternoons,<br>
 Sweet memories of summers past.<br>
+<br>
 
 She'd learnt treasures far, possessions great,<br>
 Dull the sparkle of each common day,<br>
