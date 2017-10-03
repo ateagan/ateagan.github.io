@@ -4,15 +4,18 @@ layout: default
   {% for post in site.posts %}
   <div class='post-ribbon' style="background: url('{{ page.image }}') center/cover"></div>
   {% endfor %}
+
   <div class='card col s12'>
     <div class='card-content'>
       <h3>{{ page.title }}</h3>
       <div class='grey-text'>
         {{ page.date | date: '%b %-d, %Y' }}{% if page.author %} • {{ page.author }}{% endif %}{% if page.meta %} • {{ page.meta }}{% endif %}{% if page.categories %} • {% for cat in page.categories %} {{ cat }} {% endfor %} {% endif %}
       </div>
+
       <article class='post-content'>
         <p>{{ content }}</p>
       </article>
+
       <!-- Disqus comments -->
       {% if site.disqus %}
       <div>
