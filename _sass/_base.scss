@@ -60,12 +60,9 @@ ul, ol, dl, figure,
  * Blockquotes
  */
 blockquote {
-  color: $grey-color;
-  border-left: 4px solid $grey-color-light;
+  border-left: 4px solid $teal;
   padding-left: $spacing-unit / 2;
-  font-size: 18px;
-  letter-spacing: -1px;
-  font-style: italic;
+  font-family: 'Roboto Slab';
 
   > :last-child {
     margin-bottom: 0;

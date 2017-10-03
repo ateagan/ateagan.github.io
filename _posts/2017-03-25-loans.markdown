@@ -22,7 +22,8 @@ hour long talks that inspires me to be happy no matter what state my life is in.
 
 Thanks for reading!
 
-<blockquote><span style="font-style: normal;">She thought she had escaped it,<br>
+<blockquote>
+She thought she had escaped it,<br>
 The life that brought her down,<br>
 Coming to reality,<br>
 Meeting with a frown.<br>
@@ -33,4 +34,5 @@ Yet her eyes reveal the inner thoughts,<br>
 And she whispers to herself a song<br>
 In hopes of finding faith,<br>
 But I believe that she forgot<br>
-She lent it all away.</span></blockquote>
+She lent it all away.
+</blockquote>
