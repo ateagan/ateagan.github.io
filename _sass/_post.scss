@@ -8,6 +8,10 @@
   .card {
     margin-top: 40px;
   }
+
+  .brand-logo {
+    mix-blend-mode: difference;
+  }
 }
 
 h3 {
@@ -15,6 +19,14 @@ h3 {
 }
 p {
   margin-bottom: 1rem !important;
+}
+
+blockquote {
+  border-left-color: rgb(0, 150, 136);
+  font-family: 'Roboto Slab';
+  font-size: inherit;
+  letter-spacing: inherit;
+  color: inherit;
 }
 
 /*
