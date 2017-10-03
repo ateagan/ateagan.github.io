@@ -55,18 +55,8 @@ ul, ol, dl, figure,
 %vertical-rhythm {
   margin-bottom: $spacing-unit / 2;
 }
-
-/*
- * Blockquotes
- */
-blockquote {
-  border-left: 4px solid $teal;
-  padding-left: $spacing-unit / 2;
-  font-family: 'Roboto Slab';
-
-  > :last-child {
-    margin-bottom: 0;
-  }
+.card-content a {
+  color: inherit;
 }
 
 /*

@@ -11,7 +11,7 @@ layout: default
       <div class='card-image' {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}></div>
       <div class='card-stacked'>
         <div class='card-content'>
-          <h3>{{ post.title }}<a class='dropdown-button btn-floating waves-effect z-depth-0 transparent right' href='#' data-activates='share'><i class='material-icons black-text'>more_vert</i></a></h3>
+          <h3><a href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a><a class='dropdown-button btn-floating waves-effect z-depth-0 transparent right' href='#' data-activates='share'><i class='material-icons black-text'>more_vert</i></a></h3>
           <p>{{ post.excerpt }}</p>
           <ul id='share' class='dropdown-content' for='btn-high-{{ post.id }}'>
             <li><a href='https://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.url }}' class='waves-effect waves-teal'>Facebook</a></li>
@@ -36,7 +36,7 @@ layout: default
       </div>
       <div class='card-stacked'>
         <div class='card-content'>
-          <h3>{{ post.title }}<a class='dropdown-button btn-floating waves-effect z-depth-0 transparent right' href='#' data-activates='share'><i class='material-icons black-text'>more_vert</i></a></h3>
+          <h3><a href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a><a class='dropdown-button btn-floating waves-effect z-depth-0 transparent right' href='#' data-activates='share'><i class='material-icons black-text'>more_vert</i></a></h3>
           <p>{{ post.excerpt }}</p>
           <ul id='share' class='dropdown-content' for='btn-high-{{ post.id }}'>
             <li><a href='https://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.url }}' class='waves-effect waves-teal'>Facebook</a></li>
@@ -63,7 +63,7 @@ layout: default
       </div>
       <div class='card-stacked'>
         <div class='card-content'>
-          <h3>{{ post.title }}<a class='dropdown-button btn-floating waves-effect z-depth-0 transparent right' href='#' data-activates='share'><i class='material-icons black-text'>more_vert</i></a></h3>
+          <h3><a href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a><a class='dropdown-button btn-floating waves-effect z-depth-0 transparent right' href='#' data-activates='share'><i class='material-icons black-text'>more_vert</i></a></h3>
           <p>{{ post.excerpt }}</p>
           <ul id='share' class='dropdown-content' for='btn-high-{{ post.id }}'>
             <li><a href='https://www.facebook.com/sharer/sharer.php?u={{ post.url | prepend: site.url }}' class='waves-effect waves-teal'>Facebook</a></li>

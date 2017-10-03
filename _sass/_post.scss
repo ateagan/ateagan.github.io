@@ -22,6 +22,25 @@ p {
 }
 
 /*
+ * Blockquotes
+ */
+blockquote {
+  border-left: 4px solid $teal;
+  padding-left: $spacing-unit / 2;
+  font-family: 'Roboto Slab';
+  white-space: nowrap;
+
+  > :last-child {
+    margin-bottom: 0;
+  }
+}
+@media only screen and (max-width: 425px) {
+  blockquote {
+    font-size: 3.5vw;
+  }
+}
+
+/*
  * FAB
  */
 .btn-floating span {
