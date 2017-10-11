@@ -34,8 +34,8 @@ layout: default
       <li><a href='https://www.facebook.com/sharer/sharer.php?u={{ page.url | prepend: site.url }}' class='btn-floating waves-effect blue darken-2'><span>f</span></a></li>
       <li><a href='https://twitter.com/share?url={{ page.url | prepend: site.url }}&text={{ post.title }}&via={{ site.twitter_username }}' class='btn-floating waves-effect white'><img src='/img/Twitter bird.svg'></a></li>
       <li><a href='https://plus.google.com/share?url={{ page.url | prepend: site.url }}' class='btn-floating waves-effect red darken-1'><span>G+</span></a></li>
-      <li><a href='mailto:?subject=Modern Business&body={{ page.url | prepend: site.url }}' class='btn-floating waves-effect red'><i class='material-icons'>mail</i></a></li>
       <li><a href='whatsapp://send?text={{ page.url | prepend: site.url }}' class='btn-floating waves-effect green'><img src='/img/Whatsapp.svg'></a></li>
       <li><a href='sms:?body={{ page.url | prepend: site.url }}' class='btn-floating waves-effect blue darken-1'><i class='material-icons'>message</i></a></li>
+      <li><a data-clipboard-text='{{ page.url | prepend: site.url }}' onclick="Materialize.toast('Copied', 4000)" class='btn-floating waves-effect copy grey darken-3'><i class='material-icons'>content_copy</i></a></li>
     </ul>
   </div>
