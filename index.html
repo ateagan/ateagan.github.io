@@ -8,10 +8,10 @@ layout: default
 
   <div class='col s12 hide-on-small-and-down'>
     <div class='card horizontal'>
-      <a href='{{ post.url | prepend: site.baseurl }}' class='card-image waves-effect' {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}></a>
+      <div class='card-image waves-effect' {% if post.image %} style="background: url('{{ post.image }}') center/cover;" {% endif %}></div>
       <div class='card-stacked'>
         <div class='card-content'>
-          <h3><a href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a></h3>
+          <h3>{{ post.title }}</h3>
           <p>{{ post.excerpt }}</p>
         </div>
         <div class='card-action'>
@@ -22,39 +22,33 @@ layout: default
   </div>
 
   <div class='col s12 hide-on-med-and-up'>
-    <div class='card'>
-      <a href='{{ post.url | prepend: site.baseurl }}' class='card-image waves-effect'>
+    <a href='{{ post.url | prepend: site.baseurl }}' class='card waves-effect'>
+      <div class='card-image'>
         <img {% if post.image %} src='{{ post.image }}' {% endif %}>
-      </a>
+      </div>
       <div class='card-stacked'>
         <div class='card-content'>
-          <h3><a href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a></h3>
+          <h3>{{ post.title }}</h3>
           <p>{{ post.excerpt }}</p>
         </div>
       </div>
-    </div>
+    </a>
   </div>
 
   {% else %}
 
   <div class='col s12 m6'>
-    <div class='card'>
-      <a href='{{ post.url | prepend: site.baseurl }}' class='card-image waves-effect'>
+    <a href='{{ post.url | prepend: site.baseurl }}' class='card waves-effect'>
+      <div class='card-image'>
         <img {% if post.image %} src='{{ post.image }}' {% endif %}>
-      </a>
+      </div>
       <div class='card-stacked'>
         <div class='card-content'>
           <h3><a href='{{ post.url | prepend: site.baseurl }}'>{{ post.title }}</a></h3>
           <p>{{ post.excerpt }}</p>
         </div>
-        <div class='card-action'>
-          <a href='{{ post.url | prepend: site.baseurl }}' class='btn-flat waves-effect teal-text'>Read more</a>
-        </div>
-        <div class='card-action'>
-          <a href='{{ post.url | prepend: site.baseurl }}' class='btn-flat waves-effect teal-text'>Read more</a>
-        </div>
       </div>
-    </div>
+    </a>
   </div>
   {% endif %}
   {% endfor %}
