@@ -40,6 +40,12 @@ blockquote {
 @media only screen and (max-width: 425px) {
   blockquote {
     font-size: 3vw;
+    white-space: normal;
+  }
+  blockquote br {
+    content: '';
+    display: block;
+    margin: 1rem;
   }
 }
 
