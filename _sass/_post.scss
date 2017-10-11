@@ -30,7 +30,7 @@ p {
 blockquote {
   border-left: 4px solid $teal;
   padding-left: $spacing-unit / 2;
-  font-family: 'Roboto Slab';
+  font-family: 'Roboto Mono';
   white-space: nowrap;
 
   > :last-child {
@@ -39,7 +39,7 @@ blockquote {
 }
 @media only screen and (max-width: 425px) {
   blockquote {
-    font-size: 3.5vw;
+    font-size: 3vw;
   }
 }
 
