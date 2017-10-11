@@ -38,4 +38,7 @@ jQuery(document).ready(function($) {
     }, 'fast');
     return false;
   });
-});;
+});
+
+// Copy to clipboard
+new Clipboard('.copy');
