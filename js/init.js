@@ -1,4 +1,4 @@
-// Header
+// Header dynamics
 (function($) {
   var $window = $(window),
     $header = $('header'),
@@ -22,6 +22,9 @@
 
 // Side nav
 $('.sidenav-button').sideNav();
+
+// Tooltips
+$('.tooltipped').tooltip({delay: 50});
 
 // Smooth scroll to top FAB
 jQuery(document).ready(function($) {
