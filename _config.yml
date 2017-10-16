@@ -19,5 +19,9 @@ pagination_type: default  # values [ ops, default ]
 disqus: true
 disqus_shortname: 'Teagan'
 
+# SEO
+plugins:
+  - jekyll-sitemap
+
 # Build settings
 markdown: kramdown
