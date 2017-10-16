@@ -1,11 +1,24 @@
 ---
 layout: post
 title: A friend's story
+author: A. Teagan
 date: 2017-03-25 20:56 -0700
 category: Poems
 tags: [poem]
 highlight: true
 image: https://source.unsplash.com/ETRPjvb0KM0
+poem: She thought she had escaped it,<br>
+  The life that brought her down,<br>
+  Coming to reality,<br>
+  Meeting with a frown.<br>
+  She speaks of deep desires,<br>
+  Of dreams so far away,<br>
+  Yet her eyes reveal the inner thoughts,<br>
+  &ldquo;It'll never be that way.&rdquo;<br>
+  And she whispers to herself a song<br>
+  In hopes of finding faith,<br>
+  But I believe that she forgot<br>
+  She lent it all away.
 ---
 Readers, I am in the thick of semester and, of course, the rest of my commitments
 I work to keep as I’m thrown extra juggling balls. Life becomes more and more exciting,
