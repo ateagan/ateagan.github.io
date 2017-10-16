@@ -24,9 +24,16 @@
         "@type" : "Person",
         "name" : "{{ page.author }}"
       },
+      "publisher" : {
+        "@type" : "Organization",
+        "name" : "{{ page.author }}"
+      },
       "datePublished" : "{{ page.date }}",
+      "dateModified" : "{{ page.date }}",
       "image" : "{{ page.image }}",
-      "articleBody" : "{{ page.poem }}"
+      "headline": "{{ page.title }}",
+      "articleBody" : "{{ page.excerpt }}",
+      "mainEntityOfPage": "{{ page.poem }}"
     }
     </script>
 
