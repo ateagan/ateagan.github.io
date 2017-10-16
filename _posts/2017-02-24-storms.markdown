@@ -2,19 +2,21 @@
 layout: post
 title: Happy 2017!
 author: A. Teagan
-date: 2017-02-24 15:04 -0700
-category: Poems
-tags: [poem]
+date: 2017-02-24 00:00:00 +0000
+tags:
+- poem
 highlight: true
 image: https://source.unsplash.com/CQChlwQXom4
-poem: Perhaps a little storm isn’t so bad as it seems,<br>
-  For lightning does light up the sky once far too dark to see.<br>
-  And hear the mighty thunder roar! So fearful be the sound,<br>
-  Yet melancholy and serene as it shakes the very ground.<br>
-  And the pitter-patter of the rain falling in rhythms, patterns, beats,<br>
-  Washing out the musky air, clearing out the heat.<br>
-  Maybe storms frighten the being of a child,<br>
+poem: |-
+  Perhaps a little storm isn’t so bad as it seems,
+  For lightning does light up the sky once far too dark to see.
+  And hear the mighty thunder roar! So fearful be the sound,
+  Yet melancholy and serene as it shakes the very ground.
+  And the pitter-patter of the rain falling in rhythms, patterns, beats,
+  Washing out the musky air, clearing out the heat.
+  Maybe storms frighten the being of a child,
   but to me offers moments sweet in a world that’s turning wild.
+categories: Poems
 ---
 ## Storms
 
